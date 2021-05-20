@@ -29,20 +29,38 @@
 }
 
 
-
+/* 
 .team{
 	max-width: 100%;
 	width: 100%;
 	height: auto;
-	background-color: grey;
+	background-color: grey; */
 
-}
+/* } */
 
 .team-photo {
-	width: 800px;
-	height: auto;
-	margin-left: 200px;
+	max-width: 800px;
+	width: 100%;
+	
+	margin-left: 250px;
 	border-style: double;
 	border-width: 2px;
 	border-color: cornflowerblue;
+}
+
+.info-div {
+	background-color: #B6B6B6;
+	/* max-width: 900px;1` */
+	width: 100%;
+	height: auto;
+	/* margin-left: 200px; */
+	text-align: center;
+	text-indent: 40px;
+	line-height: 30px;
+
+}
+
+.video1 {
+	max-width: 600px;
+	width: 100%;
 }
