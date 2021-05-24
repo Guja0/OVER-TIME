@@ -8,35 +8,44 @@
 
 .team-intro {
 
+	display: -webkit-box;
+
+	display: -ms-flexbox;
+
 	display: flex;
 	max-width: 100%;
-	justify-content: space-around;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
 	background-color: #232323;
 	-webkit-transition: all 0.3s ease-in-out 0s;
-    -moz-transition: all 0.3s ease-in-out 0s;
     -o-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
 	background-attachment: fixed;
 }
-
 .title {
+	padding-right: 300px;
+	padding-bottom: 80px;
 	color: #FFFFFF;
+	font-size: 30px;
+	 display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-wrap: wrap;
-	padding-top: 50px;
-	padding-left: 50px;
-	justify-content: space-around; 
+	  -ms-flex-wrap: wrap;  
+	    flex-wrap: wrap;
+	padding-top: 50px; 
+	padding-left: 50px; 
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
 }
 
 
-/* 
 .team{
 	max-width: 100%;
 	width: 100%;
 	height: auto;
-	background-color: grey; */
+	background-color: grey; 
 
-/* } */
+ }
 
 .team-photo {
 	max-width: 800px;
@@ -46,21 +55,44 @@
 	border-style: double;
 	border-width: 2px;
 	border-color: cornflowerblue;
+	
 }
-
+.div {
+	background-color: black;
+}
 .info-div {
-	background-color: #B6B6B6;
 	/* max-width: 900px;1` */
-	width: 100%;
+	width: 500px;
 	height: auto;
 	/* margin-left: 200px; */
 	text-align: center;
 	text-indent: 40px;
 	line-height: 30px;
+	color: white;
 
 }
 
 .video1 {
 	max-width: 600px;
 	width: 100%;
+	margin-right: 10px;
+	margin-top: 4px;
+
+}
+
+.info-cont{
+	max-width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: first baseline;
+	background-color: #272DF0;
+}
+
+.video-div {
+	max-width: 600px;
+	
+}
+
+.team-imgs {
+	max-width: 100px;
 }
